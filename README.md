@@ -2,6 +2,9 @@
 
 ![doggo](https://user-images.githubusercontent.com/72495327/123127704-6f968e80-d442-11eb-9547-a525e8fd5203.PNG)
 
+>[-] = Closed Port\
+[+] = Open Port
+
 ## Description
 Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses.
 
