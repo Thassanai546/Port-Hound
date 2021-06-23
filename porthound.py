@@ -33,6 +33,9 @@ def scanlist(host: str, file: str, timeout: Optional[float] = typer.Argument(.2)
     print("Target: " + socket.gethostbyname(host) + "\n")
     time_start = time.time()
     try:
+        if '.txt' not in file:
+            file += '.txt'
+        
         file = open(file) # Attempt to open user specified file
         print("File opened successfully")
         for portNo in file:
