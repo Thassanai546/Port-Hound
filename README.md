@@ -22,6 +22,6 @@ This script uses the following imports:
 + Example `portscanner.py scanrange --help` will show you how to scan a range of hosts, presenting the output below:
 + You may pass in a text file (`.txt`) with a list of ports to scan using scanlist.
 
-Only ever scan your own website or loopback address.
+Only ever port scan website that you have permission to scan.
 
 ![image](https://user-images.githubusercontent.com/72495327/123128528-2266ec80-d443-11eb-8bfc-b3b5027a3948.png)
