@@ -1,12 +1,12 @@
 # Python-Port-Sniffer
 
-![doggo](https://user-images.githubusercontent.com/72495327/123127704-6f968e80-d442-11eb-9547-a525e8fd5203.PNG)
+![porthound-banner](https://user-images.githubusercontent.com/72495327/134083957-95a152b6-f77f-43ab-99ca-08985cee8102.PNG)
 
 >[-] = Closed Port\
 [+] = Open Port
 
 ## Description
-Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses.
+Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses. The time taken after each scan is printed.
 
 ## Installation
 This script uses the following imports:
@@ -25,3 +25,7 @@ This script uses the following imports:
 Only ever port scan website that you have permission to scan.
 
 ![image](https://user-images.githubusercontent.com/72495327/123128528-2266ec80-d443-11eb-8bfc-b3b5027a3948.png)
+
+## Example Syntax
++ Use a list of ports and scan loopback address `> porthound.py scanlist 127.0.0.1 common_ports.txt`
++ Scan ports 60 to 100 on loopback address `> porthound.py scanrange 127.0.0.1 60 100`
