@@ -5,16 +5,17 @@ import time
 
 app = typer.Typer()
 
+# GitHub: https://github.com/Thassanai546/Port-Hound
+
 def banner(): # Dog that sniffs for ports
     print('''
-                    Warning!!! Port scanning a target without permission
-        |\_/|       can get you into trouble.     
-        | @ @       If you want to test the scanner use 127.0.0.1
+        |\_/|       Warning!!! Port scanning a target without permission
+        | @ @       can get you into trouble.    
         |   <>              _ 
         |  _/\------____ ((| |))
         |               `--' |   
     ____|_       ___|   |___.' 
-    /_/_____/____/_______|
+   /_/_____/____/_______|
     ''')
 
 @app.command() # User can enter a specific port to scan
