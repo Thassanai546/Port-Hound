@@ -7,7 +7,10 @@
 
 ## Description
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+<img src="http://ForTheBadge.com/images/badges/made-with-python.svg" align="left">
+
+<img src="https://forthebadge.com/images/badges/built-with-love.svg">
+
 
 Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses.\
 \
