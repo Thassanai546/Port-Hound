@@ -6,15 +6,18 @@
 [+] = Open Port
 
 ## Description
-Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses. The time taken after each scan is printed.
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+Python port scanner built using Socket. This program also features Typer which allows users to pass in parameters in the CLI. Users may scan for a specific port or a range of ports. Socket will automatically convert hostnames like example.com to their IP addresses.\
+\
+The time taken after each scan is printed and closed ports will show up in red during output while open ports will show up in green.
 
 ## Installation
 This script uses the following imports:
-+ typer
-+ socket
-+ time
-+ typing 
-  + optional
++ click==8.0.3
++ colorama==0.4.4
++ typer==0.4.0
 
 ## Usage
 + After downloading the script, you can run it in command prompt by typing `portscanner.py`. This will present you with a help page.
